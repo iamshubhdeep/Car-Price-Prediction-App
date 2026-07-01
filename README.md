@@ -1,19 +1,16 @@
-# 🚗 Car Price Prediction System
-
-An end-to-end Machine Learning web application that predicts the resale price of a car based on its specifications, features, and history. The system trains a Random Forest Regressor model on historical automotive data and serves real-time predictions via a production-ready Flask interface deployed in the cloud.
-
+# Car Price Prediction System
 ---
 
-## 👤 Developer Profile
-* **Name:** Akshat Garg
-* **Registration Number:** 23BCE10641
+## 👤 Profile
+* **Name:** Shubhdeep Singh
+* **Registration Number:** 23BCE11460
 * **Course:** B.Tech Computer Science and Engineering
 
 ---
 
 ## 🔗 Project Links
 * **Live Web Application:** [https://car-price-prediction-app-00au.onrender.com](https://car-price-prediction-app-00au.onrender.com)
-* **GitHub Repository:** [https://github.com/AkshatGarg2005/car-price-prediction-app](https://github.com/AkshatGarg2005/car-price-prediction-app)
+* **GitHub Repository:** [https://github.com/iamshubhdeep/Car-Price-Prediction-App/edit/main/README.md]
 
 ---
 
@@ -47,22 +44,6 @@ The repository is engineered according to institutional production guidelines, s
 └── 📄 .gitignore               # Excludes runtime caches and heavy dataset packages
 
 ```
-
----
-
-## 📊 Dataset & Feature Alignment
-
-The machine learning pipeline utilizes the **Vehicle Dataset from CarDekho** (sourced dynamically from Kaggle). The following features are processed, mapped into numerical fields, and evaluated by the mathematical boundaries of the model:
-
-| Feature Name | Type | Description / Mapped Space |
-| --- | --- | --- |
-| **Present Price** | Continuous | Current showroom valuation of the vehicle (in Lakhs) |
-| **Kilometers Driven** | Discrete | Total numeric mileage history of the car |
-| **Fuel Type** | Categorical | Mapped Target Vectors: `Petrol: 0`, `Diesel: 1`, `CNG: 2` |
-| **Seller Type** | Categorical | Mapped Target Vectors: `Dealer: 0`, `Individual: 1` |
-| **Transmission** | Categorical | Mapped Target Vectors: `Manual: 0`, `Automatic: 1` |
-| **Owners History** | Discrete | Integer count of previous registered owners |
-| **Car Age** | Continuous | Transformed temporal matrix calculated from the build year |
 
 ---
 
